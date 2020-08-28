@@ -3,16 +3,8 @@ public class Employee extends Person {
     private int hours;
     private int salary;
 
-    public Employee(String name, String cpr, int hours) {
-        super(name, cpr);
-        hours = hours;
-        salary = salary;
-    }
-
     public Employee(String name, String cpr) {
         super(name, cpr);
-        hours = 37;
-        salary = 23000;
     }
 
     public int getHours() {
@@ -30,5 +22,4 @@ public class Employee extends Person {
     public void setSalary(int salary) {
         this.salary = salary;
     }
-
 }

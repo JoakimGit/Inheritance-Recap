@@ -1,6 +1,6 @@
 public class Member extends Person {
 
-    private boolean isBasic;
+    private final boolean isBasic;
 
     public Member(String name, String cpr, boolean membership) {
         super(name, cpr);

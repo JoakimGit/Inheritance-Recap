@@ -2,9 +2,10 @@ public class Administration extends Employee {
 
     private int vacation;
 
-
     public Administration(String name, String cpr) {
         super(name, cpr);
+        setHours(37);
+        setSalary(23000);
         vacation = 5;
     }
 
